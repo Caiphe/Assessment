@@ -1,0 +1,9 @@
+5. BONUS QUESTION:
+-------------------------------
+if x = 10
+while x is greater than 10
+    print x
+
+How many times will x print?
+-------------------------------
+ A) It will print undefined

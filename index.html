@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/w3school3.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.toggle').click(function(){
+            $('.nav_wrapper').toggleClass('active');
+          })
+        })
+      </script>
+
+    <title>Assessment</title>
+    <style type="text/css">
+       #prop_number{
+        border:solid 1px transparent;
+       }
+       #prop_number:hover{
+        border:solid 1px transparent;
+        background-color: transparent;
+        color: white;
+       }
+    </style>
+           
+</head>
+<body>
+    <div class="nav_wrapper" >
+        <div class="container" style="padding-top:60px;padding-bottom: 30px;">
+        <nav class="main_nav" >
+                
+            <ul >
+                <li><a href="#void" id="active_a" >Home</a></li>
+                <li><a href="#void">Property Search</a></li>
+                <li><a href="#void">About Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#void">Agent search</a></li>
+                <li><a href="#void">tools</a></li>
+                <li><a href="#void">contact us</a></li>
+            </ul>
+        </nav>
+        </div>
+        <a class="toggle"><i class="ionicon ion-navicon"></i> Menu</a>
+
+        <div class="container .w3-display-topmiddle" id="myLogo" >
+                <a class="navbar-brand " href="#void"><img  src="images/logo1.png"></a> 
+        </div>
+        
+    </div>
+  
+    <!--IMAGE SLIDER-->
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       <div class="carousel-inner">
+         <div class="item active">
+           <img src="images/headerimage.jpg" alt="headerImage" style="width: 100%;">
+         </div>
+
+         <div class="item">
+           <img src="images/headerimage2.jpg" alt="headerImage" style="width: 100%;">
+         </div>
+       </div>
+
+      
+            <div class="container">
+               <div class="form_div" id="form_div">
+                <form>
+                 <div class="row">
+                   <div class="col-md-6">
+                       <div class="row">
+                           <div class="col-md-4">
+                                <div class="glyphIconMethod">
+                                    <select class="form-control" name="rent" id="allSelect">
+                                        <option value="Rent">Rent</option>
+                                        <option value="Rent">Rent</option>
+                                    </select>
+                                    <label class="myChevron animated flipInY" id="chevron_down_animate"><i class="ionicon ion-chevron-down"></i></label>
+                                    <label class="myChevronup animated flipInX" id="chevron_down_animate"><i class="ionicon ion-chevron-up"></i></label>
+                               </div>
+                           </div>
+                           <div class="col-md-8">
+                                <div class="glyphIconMethod">
+                                <select class="form-control" name="rent" id="allSelect1">
+                                        <option value="Commercial Property">Commercial Property</option>
+                                        <option value="Commercial Property">Commercial Property</option>
+                                </select>
+                                <label class="myChevron2 animated flipInY" id="chevron_down_animate"><i class="ionicon ion-chevron-down "></i></label>
+                                <label class="myChevronup2 animated flipInY" id="chevron_down_animate"><i class="ionicon ion-chevron-up"></i></label>
+                                </div>
+                           </div>
+                       </div>
+                      
+                   </div>
+                   <div class="col-md-6">
+                       <input type="text" name="AreaType" class="form-control" placeholder="Type area or Suburb Name">
+                   </div>
+                </div>
+               </form>
+                <div class="myFlex">
+                     <ul>
+                        <li> <button> <b>#</b> Web Ref Number Search</button></li>
+                     </ul>
+                     <ul class="second_ul">
+                        <li><button id="prop_number">125 Properties</button></li> &nbsp;
+                        <li><button><i class="ionicon ion-chevron-down"></i> More Search Option</button></li> &nbsp;
+                        <li><button> <i class="ionicon ion-search"></i> SEARCH </button></li>
+                     </ul>            
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+   <br>
+   <!--MOBILE FORM-->
+   <div class="container">
+       <form class="mobile_form">
+            <select class="form-control" name="rent" id="allSelect">
+                    <option value="Rent">Rent</option>
+                     <option value="Rent">Rent</option>
+                </select>
+                <select class="form-control" name="rent" id="allSelect">
+                        <option value="Commercial Property">Commercial Property</option>
+                        <option value="Commercial Property">Commercial Property</option>
+                </select>
+                <input type="text" name="Areatype" class="form-control" placeholder="Type area or Suburb Name">
+                <button> <b>#</b> Web Ref Number Search</button>
+                <button><i class="ionicon ion-chevron-down"></i> More Search Option</button></li>
+                <button><b><i class="ionicon ion-search"></i></b> SEARCH</button></li>
+                <button id="prop_num_mobile"> 125 Properties</button></li>
+        </form>
+       </form>
+   </div>
+   <br>
+   <div class="container">
+     <span class="" style="font-size: 13px;"><b>You are here :</b>Property Nerds/Homepage</span>
+     <h2 class="featured_prop" style="font-family: 'Fjalla One', sans-serif;">PROPERTY NERDS</h2>
+
+     <div class="myIcons_div">
+       
+         <i class="icon ion-ios-albums"></i>&nbsp;
+         <i class="icon ion-android-share-alt"></i>&nbsp;
+     </div>
+     <p style="text-align: justify;">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam fugiat dolorem nobis quia repellat, quibusdam sint beatae? Architecto dolorem dolor, cum exercitationem quas perferendis pariatur iste molestiae debitis placeat quo harum optio non repellat tempora beatae libero qui eligendi impedit est quos totam esse veritatis vero? Laboriosam beatae qui perferendis commodi dolorem! Saepe fuga explicabo est nostrum doloribus? Veritatis, voluptates sequi eveniet animi accusantium blanditiis commodi esse porro dolor dolore dolorum libero? Excepturi molestiae ipsa eius! Unde minus incidunt nisi.
+     </p>
+      
+     <!--MORE BUTTON-->
+     <div class="container">
+       <p class="more ">
+           <button >More </button>
+       </p>
+     </div>
+     
+    <h2 class=" animated shake featured_prop" id="shake_effect" style="font-family: 'Fjalla One', sans-serif;">FEATURES PROPERTIES</h2>
+     <div class="row">
+         <div class="col-md-6 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.5s">
+             <div class="thumbnail">
+                    <a data-lightbox="gallery"  data-title="New sole mandate " href="images/property1.jpg"><img class="featured_images" src="images/property1.jpg"></a>
+                    <p class="w3-display-topleft" style="padding: 6px 10px;background-color: rgba(0, 0, 0, 0.945);margin-left:41px;margin-top: 26px;color: white;">NEWS</p>
+                 <div class="caption">
+                     <p>NEW, SOLE MANDATE</p>
+                     <p><span >Web Ref PA9303</span></p>
+                 </div>
+                 <h2 class="after_caption" style="font-family: 'Fjalla One', sans-serif;">R110 PERM</h2><br>
+                 <p class="after_caption_paragraph" id="after_caption_paragraph">200m Office to let in Stellenbosch</p>
+             </div>
+         </div>
+         <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.5s">
+                <div class="thumbnail">
+                    <a data-lightbox="gallery" data-title="New sole mandate " href="images/property2.jpg"><img class="featured_images" src="images/property2.jpg"></a>
+                    <p class="w3-display-topleft" style="padding: 6px 10px;background-color: rgba(0, 0, 0, 0.945);margin-left:41px;margin-top: 26px;color: white;">NEWS</p>
+                    <div class="caption">
+                        <p>NEW, SOLE MANDATE</p>
+                        <p>Web Ref PA9303</p>
+                    </div>
+                    <h2 class="after_caption" style="font-family: 'Fjalla One', sans-serif;">R110 PERM</h2><br>
+                    <p class="after_caption_paragraph" id="after_caption_paragraph">200m Office to let in Stellenbosch</p>
+                </div>
+            </div>
+     </div>
+     <br><br>
+     <div>
+         <a href="#void" id="callus" class="thumbnail"><img src="images/banner1.png"></a>
+     </div>
+
+
+
+   </div>
+   <br><br>
+   <div class="footer"> 
+       <div class="container">
+           <p class="first"><b>Browse:</b> Home | On Sow | Residential Homes For Sale | Residential Home To Let | Vacant Land | New Developements | Calculators | Area Profiles | Genereal Advices | Company Profile | Agent Search | Conact Us | Website Map | Useful Links | Privacy Policy | </p>
+          <hr>
+          <p class="first">Residential For Sale [54]: Amanzimtoti[12] | Atholone Park [3] Doonside [6] Warner Beach[11] St Winifreds [4] Residential To Let [54] Amanzimtoti[12] | Atholone Park [3] Doonside [6] Warner Beach[11] St Winifreds [4] Residential To Let [54]</p>
+         <br>
+         <div class="row">
+             <div class="col-md-6">
+                 <p style="color:white;font-size:13px;">Website Powered by Prop Data <br> Copyright 2017 Property Nerds</p>
+             </div>
+             <div class="col-md-6" >
+                    <div class="footer_icons">
+                        <i class="ionicon ion-social-facebook"></i>&nbsp;
+                        <i class="ionicon ion-social-twitter"></i>&nbsp;
+                        <i class="ionicon ion-social-google"></i>&nbsp;
+                        <i class="ionicon ion-social-youtube"></i>&nbsp;
+                    </div>
+                </div>
+         </div>
+        </div>
+        <br><br>
+   </div> 
+
+
+   <button onclick="topFunction()" id="myBtn" title="Go to top" class="back-to-top"><i class="icon ion-chevron-up" aria-hidden="true"></i></button>
+        <!--SCRIPTS -->
+    <script src="js/jquery-3.3.1.min.js"></script>      
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/fliplightbox.min.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function() {
+      var offset = 200;
+      var duration = 700;
+      $(window).scroll(function() {
+          if ($(this).scrollTop() > offset) {
+              $('.back-to-top').fadeIn(duration);
+          } else {
+              $('.back-to-top').fadeOut(duration);
+          }
+      });
+      $('.back-to-top').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: 0}, duration);
+          return false;
+      })
+  });
+  
+  </script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#allSelect").hover(function(){
+			$(".myChevron").hide();
+			$(".myChevronup").fadeIn(700);
+			
+		},function(e){
+		    $(".myChevronup").hide()
+		    $(".myChevron").fadeIn(500);
+	    });
+        $("#allSelect1").hover(function(){
+			$(".myChevron2").hide();
+			$(".myChevronup2").fadeIn(700);
+			
+		},function(e){
+		    $(".myChevronup2").hide()
+		    $(".myChevron2").fadeIn(500);
+	    });
+  });
+</script>
+ <script>
+ wow = new WOW(
+  {
+ 
+   } ) 
+   .init();
+ </script> 
